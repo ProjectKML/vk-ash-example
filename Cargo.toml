@@ -1,0 +1,13 @@
+[package]
+name = "vk-ash-triangle"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+ash = { git = "https://github.com/projectkml/ash" }
+ash-window = { git = "https://github.com/projectkml/ash" }
+shaderc = { git = "https://github.com/projectkml/shaderc-rs" }
+winit = "0.27.1"
+raw-window-handle = "0.5.0"
